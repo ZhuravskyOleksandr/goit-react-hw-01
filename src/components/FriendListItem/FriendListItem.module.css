@@ -1,0 +1,23 @@
+.imgFriend {
+    width: 100px;
+}
+
+.friendName {
+    padding-top: 12px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.friendStatus {
+    font-size: 18px;
+}
+
+.online {
+    composes: friendStatus;
+    color: green;
+}
+
+.offline {
+    composes: friendStatus;
+    color: red;
+}
